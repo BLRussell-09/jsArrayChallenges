@@ -1,5 +1,3 @@
-console.log("Roam the surface.")
-
  var wrd = "jumbo a";
 
   var wrdSplat = wrd.split(' ');
