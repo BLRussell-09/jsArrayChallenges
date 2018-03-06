@@ -42,7 +42,7 @@ var notherDivElement = document.getElementById('challenge-2');
 notherDivElement.innerHTML = "<h4>" + blalala(threeInputA) + "</h4>"
 
 // Challenge 3 
-var challengeThreeInputA = [ 1, 5, 7, 2, 5, 1, 1 ]
+var challengeThreeInputA = [ 1, 1, 7, 1, 3, 1, 6 ]
 
 var unique = function uniq(arr1) {
   return arr1.filter(function(elem, index, self) {
@@ -54,6 +54,11 @@ var aNotherDivElement = document.getElementById('challenge-3');
 aNotherDivElement.innerHTML = "<h4>" + unique(challengeThreeInputA) + "</h4>"
 
 // Challenge 4
+
+function mapper(arr){
+  var dubbedArr = arr.map(x => x * 2);
+  return dubbedArr;
+}
 
 var array1 = [1,2,3,4,5,6,7,8,9,10]
 var dubz = array1.map(x => x * 2);
